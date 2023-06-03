@@ -4,7 +4,7 @@ import App from "./App";
 import "./styles/app.scss";
 import { createContext } from "react";
 
-export const server = "https://tasktracker-node.onrender.com";
+export const server = "https://tasktracker-node.onrender.com/";
 
 export const Context = createContext({ isAuthenticated: false });
 
